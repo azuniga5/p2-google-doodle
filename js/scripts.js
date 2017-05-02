@@ -1,1 +1,1 @@
-//jQuery plugin scripts
+// Scripts
