@@ -1,4 +1,53 @@
+// Grand Central Station, Main, Vertex, Canon, etc. 
+@import "normalize";
+@import "google-homepage";
+
+
 /* Styling */
 body {
-    background: red;
+    background: #e4f8ff;
 }
+
+// Stage (Parent)
+#stage {
+    position: relative;
+    overflow: hidden;
+}
+
+// Child
+#stage svg {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+// Child
+#stage h1 {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+
+// Animations Go Here
+// First Frame
+#stage h1,
+#stage svg {
+    opacity: 0;
+    transition: opacity 2.5s;    
+}
+
+// Last Frame
+#stage:hover h1, 
+#stage:hover svg {
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
