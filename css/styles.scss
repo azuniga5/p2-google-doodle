@@ -5,13 +5,14 @@
 
 /* Styling */
 body {
-    background: #e4f8ff;
+    background: white;
 }
 
 // Stage (Parent)
 #stage {
     position: relative;
     overflow: hidden;
+    
 }
 
 // Child
@@ -20,6 +21,18 @@ body {
     bottom: 0;
     right: 0;
 }
+
+.body{
+    margin: 150px auto;
+    width: 60% ;
+    height: auto;
+}
+.wheels{
+    margin: -260px auto;
+    width: 52% ;
+    height: auto;
+}
+
 
 // Child
 #stage h1 {
