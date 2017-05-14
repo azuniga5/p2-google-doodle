@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Concert+One');
 // Grand Central Station, Main, Vertex, Canon, etc. 
 @import "normalize";
 @import "google-homepage";
@@ -11,17 +12,17 @@ body {
 // Stage (Parent)
 #stage {
     position: relative;
-    overflow: hidden;
-    
+    overflow: hidden;    
 }
 
 // Child
-#stage svg {
-    position: absolute;
-    bottom: 0;
-    right: 0;
+h1{
+    font-family: 'Concert One', cursive;
+    font-size: 1.7em;
+    margin: -100px auto;
+    padding: .5em;
+    
 }
-
 .body{
     margin: 150px auto;
     width: 60% ;
