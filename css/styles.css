@@ -458,40 +458,50 @@ body {
 /* line 13, /Users/azuniga5/p2-google-doodle/css/styles.scss */
 #stage {
   position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+  background: #d2d2d2; }
 
-/* line 19, /Users/azuniga5/p2-google-doodle/css/styles.scss */
+/* line 20, /Users/azuniga5/p2-google-doodle/css/styles.scss */
 h1 {
   font-family: 'Concert One', cursive;
-  font-size: 1.7em;
+  font-size: 2em;
   margin: -100px auto;
-  padding: .5em; }
+  padding: .5em;
+  text-align: center; }
 
-/* line 26, /Users/azuniga5/p2-google-doodle/css/styles.scss */
+/* line 28, /Users/azuniga5/p2-google-doodle/css/styles.scss */
 .body {
   margin: 150px auto;
   width: 60%;
-  height: auto; }
+  height: auto;
+  text-align: center; }
 
-/* line 31, /Users/azuniga5/p2-google-doodle/css/styles.scss */
+/* line 36, /Users/azuniga5/p2-google-doodle/css/styles.scss */
 .wheels {
+  display: inline;
   margin: -260px auto;
   width: 52%;
   height: auto; }
 
-/* line 39, /Users/azuniga5/p2-google-doodle/css/styles.scss */
+/* line 44, /Users/azuniga5/p2-google-doodle/css/styles.scss */
+.wheels-2 {
+  display: inline;
+  margin: -275px auto;
+  width: 52%;
+  height: auto; }
+
+/* line 52, /Users/azuniga5/p2-google-doodle/css/styles.scss */
 #stage h1 {
   position: absolute;
   top: 40%;
   left: 40%; }
 
-/* line 47, /Users/azuniga5/p2-google-doodle/css/styles.scss */
-#stage h1,
-#stage svg {
+/* line 60, /Users/azuniga5/p2-google-doodle/css/styles.scss */
+#stage h1 {
   opacity: 0;
-  transition: opacity 2.5s; }
+  transition: opacity 1.5s; }
 
-/* line 54, /Users/azuniga5/p2-google-doodle/css/styles.scss */
+/* line 66, /Users/azuniga5/p2-google-doodle/css/styles.scss */
 #stage:hover h1,
 #stage:hover svg {
   opacity: 1; }

@@ -12,29 +12,42 @@ body {
 // Stage (Parent)
 #stage {
     position: relative;
-    overflow: hidden;    
+    overflow: hidden;  
+    background: #d2d2d2;
 }
 
 // Child
 h1{
     font-family: 'Concert One', cursive;
-    font-size: 1.7em;
+    font-size: 2em;
     margin: -100px auto;
     padding: .5em;
+    text-align: center;
     
 }
 .body{
     margin: 150px auto;
     width: 60% ;
     height: auto;
+    text-align: center;
+    
+    
 }
 .wheels{
+    display: inline;
     margin: -260px auto;
     width: 52% ;
-    height: auto;
+    height: auto;   
+  
 }
 
-
+.wheels-2{
+    display: inline;
+    margin: -275px auto;
+    width: 52% ;
+    height: auto;   
+  
+} 
 // Child
 #stage h1 {
     position: absolute;
@@ -44,10 +57,9 @@ h1{
 
 // Animations Go Here
 // First Frame
-#stage h1,
-#stage svg {
+#stage h1 {
     opacity: 0;
-    transition: opacity 2.5s;    
+    transition: opacity 1.5s;    
 }
 
 // Last Frame
