@@ -19,17 +19,17 @@ It is sold worldwide under three different brands with respective model names:
 
 Toyota 86 in Asia, South Africa, North America (from August 2016), South America and Australia;[1] GT86 in Europe; both of the preceding names in New Zealand; FT86 in Nicaragua and Jamaica;
 Subaru BRZ worldwide;
-Scion FR-S in the US and Canada. After the Scion brand was discontinued in August 2016, the FR-S was renamed as the Toyota 86.[2][3]
+Scion FR-S in the US and Canada. After the Scion brand was discontinued in August 2016, the FR-S was renamed as the Toyota 86 for the 2017 Model.The 2017 Subaru BRZ recieved Brembo brake upgrade, 5+hp, and a facelift. The Ft-86(FRS/BRZ) is known for its 50/50 weight disctribution and incredible handling. 
 ## References
 
-* [Name of Link](http://)
+* [2013-2016 Scion FRS](http://http://www.autoblog.com/scion/fr_s/)
 * [Wikipedia](https://en.wikipedia.org/wiki/Toyota_86)
-* [Name of Link](http://)
-* [Name of Link](http://)
+* [2013-2016 Subaru BRZ](http://http://jalopnik.com/what-do-you-want-to-know-about-the-subaru-brz-series-bl-1698214759)
+* [2016=7 Subaru BRZ](http://http://www.caranddriver.com/reviews/2017-subaru-brz-manual-test-review)
 
 ## Images for Moodboard
 
-![2013-2016 Scion FRS] (http://speed.academy/wp-content/uploads/2014/05/Scion-FRS-TRACK-01.jpg)
+![2013-2016 Scion FRS](http://speed.academy/wp-content/uploads/2014/05/Scion-FRS-TRACK-01.jpg)
 
 ![Toyota 86](http://blog.caranddriver.com/wp-content/uploads/2016/03/2017-Toyota-86-PLACEMENT-2-626x382.jpg)
 
