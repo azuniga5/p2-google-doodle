@@ -9,45 +9,42 @@ body {
     background: white;
 }
 
+div{
+    text-align: center;
+
+}
+
 // Stage (Parent)
 #stage {
     position: relative;
     overflow: hidden;  
     background: #d2d2d2;
+    padding: 1em;
+    margin: 0 auto;
+    align-content: center;
 }
 
 // Child
 h1{
+    display: block;
     font-family: 'Concert One', cursive;
     font-size: 2em;
     margin: -100px auto;
     padding: .5em;
     text-align: center;
-    
-}
-.body{
-    margin: 150px auto;
-    width: 60% ;
-    height: auto;
-    text-align: center;
-    
-    
-}
-.wheels{
-    display: inline;
-    margin: -260px auto;
-    width: 52% ;
-    height: auto;   
-  
+    align-content: center;
 }
 
-.wheels-2{
-    display: inline;
-    margin: -275px auto;
-    width: 52% ;
-    height: auto;   
-  
-} 
+#stage svg { 
+    display: block;
+ 
+    
+}
+
+
+
+
+
 // Child
 #stage h1 {
     position: absolute;
@@ -57,7 +54,7 @@ h1{
 
 // Animations Go Here
 // First Frame
-#stage h1 {
+# h1 {
     opacity: 0;
     transition: opacity 1.5s;    
 }
