@@ -25,7 +25,7 @@ Scion FR-S in the US and Canada. After the Scion brand was discontinued in Augus
 * [2013-2016 Scion FRS](http://http://www.autoblog.com/scion/fr_s/)
 * [Wikipedia](https://en.wikipedia.org/wiki/Toyota_86)
 * [2013-2016 Subaru BRZ](http://http://jalopnik.com/what-do-you-want-to-know-about-the-subaru-brz-series-bl-1698214759)
-* [2016=7 Subaru BRZ](http://http://www.caranddriver.com/reviews/2017-subaru-brz-manual-test-review)
+* [2017 Subaru BRZ](http://http://www.caranddriver.com/reviews/2017-subaru-brz-manual-test-review)
 
 ## Images for Moodboard
 
