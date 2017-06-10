@@ -30,12 +30,25 @@ body {
     left: 40%;
 }
 #google {
-     width: 20%;
-     margin: 0 auto;
+    width: 90%;
+    height: auto;
+    align-content: center;
+    text-align: center;
+    margin: 100px 0 0 0;
     
+    
+
 }
+
+
 // Animations Go Here
 // First Frame
+#google:hover {
+	transition-property: all;
+	transition-duration: .5s;
+	transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+}
+
 #stage h1,
 #stage svg {
     opacity: 0;
@@ -49,7 +62,7 @@ body {
 
 #stage:hover svg {
     opacity: 1;
-    <img src="img/frs-body-frame.svg" alt="">
+
 }
 
 
