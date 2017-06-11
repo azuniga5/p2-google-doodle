@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Concert+One');
 // Grand Central Station, Main, Vertex, Canon, etc. 
 @import "normalize";
 @import "google-homepage";
@@ -26,34 +27,37 @@ body {
 // Child
 #stage h1 {
     position: absolute;
+    ffont-family: 'Concert One', cursive;
     top: 40%;
     left: 40%;
 }
 #google {
-    width: 90%;
+    position: absolute;
+    width: 50%;
     height: auto;
     align-content: center;
     text-align: center;
-    margin: 100px 0 0 0;
-    
-    
-
+    margin: 200px 0px -100px -200px;
+  
 }
+
+//#body{
+   // display: block;
+   // position: absolute;
+   // height: auto;
+   // text-align: left;
+    //margin: 0 auto;
+//}
 
 
 // Animations Go Here
 // First Frame
-#google:hover {
+#body:hover {
 	transition-property: all;
-	transition-duration: .5s;
-	transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+	transition-duration: 1s;
+	transition-timing-function: cubic-bezier(0, .62, 1, .21);
 }
 
-#stage h1,
-#stage svg {
-    opacity: 0;
-    transition: opacity 2.5s;    
-}
 
 // Last Frame
 #stage:hover h1 {
