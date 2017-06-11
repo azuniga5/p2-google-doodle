@@ -16,17 +16,16 @@ body {
     overflow: hidden;
 }
 
+Layer_1 {
+	animation: Up 5s 1s infinite alternate-reverse both;
+}
 // Child
 #stage svg {
     position: absolute;
     bottom: 0;
     right: 0;
     text-align: center;
-    display: block;
-}
-.img {
-    width: 50%;
-    height: auto;
+    display: block;	
 }
 
 // Child
@@ -58,18 +57,35 @@ body {
   margin: -50px 0 0 -200px;
     
   transform: rotate(360deg);
-  transition: transform 1s;
+  transition: transform 1.1s;
 
 }
 
-#google:hover {
-    
+#car:hover {
+    background-color: transparent;
 }
 
 
+#Layer_1:hover {
+	animation: Up 5s 1s infinite alternate-reverse both;
+}
 
-
-
+@keyframes Up
+0% {
+    bottom: 273px;
+}
+styles.scss:74
+53% {
+    bottom: 273px;
+}
+styles.scss:75
+75% {
+    bottom: 0px;
+}
+styles.scss:76
+100% {
+    bottom: 0px;
+}
 
 
 
