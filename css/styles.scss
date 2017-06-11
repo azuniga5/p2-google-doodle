@@ -32,6 +32,8 @@ body {
     font-family: 'Concert One', cursive;
     top: 40%;
     left: 40%;
+    
+    transform: rotate(0deg);
 }
 #google {
     position: absolute;
@@ -47,8 +49,13 @@ body {
 
 // Animations Go Here
 // First Frame
-h1:hover {
-    font-size: 10em;
+#stage:hover h1 {
+  font-size: 8em;
+  margin: -50px 0 0 -200px;
+    
+  transform: rotate(360deg);
+  transition: transform 1s;
+
 }
 
 #google:hover {
