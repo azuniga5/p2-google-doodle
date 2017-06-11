@@ -1,5 +1,5 @@
 // Scripts
 $('img').animate(
   
-  {right: '-50px'});
+  {left: '-50px'});
       
