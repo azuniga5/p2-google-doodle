@@ -469,6 +469,7 @@ body {
   text-align: center;
   display: block; }
 
+
 /* line 28, /Users/azuniga5/Desktop/p2-google-doodle/css/styles.scss */
 #stage h1 {
   font-size: 2em;
@@ -480,7 +481,7 @@ transform: rotate(0deg)
 }
 
 /* line 34, /Users/azuniga5/Desktop/p2-google-doodle/css/styles.scss */
-#google {
+#car {
   position: absolute;
   width: 50%;
   height: auto;

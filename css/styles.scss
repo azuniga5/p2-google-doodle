@@ -24,6 +24,10 @@ body {
     text-align: center;
     display: block;
 }
+.img {
+    width: 50%;
+    height: auto;
+}
 
 // Child
 #stage h1 {
@@ -35,7 +39,7 @@ body {
     
     transform: rotate(0deg);
 }
-#google {
+#car {
     position: absolute;
     width: 50%;
     height: auto;
