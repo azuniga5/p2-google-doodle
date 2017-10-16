@@ -457,9 +457,12 @@ body {
 
 /* line 15, /Users/azuniga5/Desktop/p2-google-doodle/css/styles.scss */
 #stage {
-  background: url(../img/sky.png);
+  background: url(../img/google-white.png);
   position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+
+}
+
 
 /* line 22, /Users/azuniga5/Desktop/p2-google-doodle/css/styles.scss */
 Layer_1 {
@@ -478,6 +481,7 @@ Layer_1 {
   font-size: 2em;
   letter-spacing: 1px;
   color: whitesmoke;
+  opacity: 0;
   position: absolute;
   font-family: 'Acme', sans-serif;
   letter-spacing: 2.5px;
@@ -497,21 +501,30 @@ Layer_1 {
 
 #car {
   position: absolute;
-  width: 50%;
+  width: 40%;
   height: auto;
   align-content: center;
   text-align: center;
-  margin: 200px 0px 0px 50px;
+  margin: 215px 0px 0px 50px;
   
 }
 
 /* line 62, /Users/azuniga5/Desktop/p2-google-doodle/css/styles.scss */
+
+#stage:hover{
+    background: url(../img/sky.png);
+    transition: background ease-out .5s; 
+    
+}
+
+
 #stage:hover h1 {
   font-size: 8em;
   margin: -50px 0 0 -200px;
-  color: white;
+  color: whitesmoke;
+    opacity: 100;
   transform: rotate(360deg);
-  transition: transform 1.1s; }
+  transition: transform 1.3s; }
 
 /* line 71, /Users/azuniga5/Desktop/p2-google-doodle/css/styles.scss */
 #car:hover {

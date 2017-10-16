@@ -13,7 +13,7 @@ body {
 
 // Stage (Parent)
 #stage {
-    background: url(../img/sky.png);
+    background: url(../img/google-white.png);
     position: relative;
 
     overflow: hidden;
@@ -22,6 +22,14 @@ body {
 Layer_1 {
 	animation: Up 5s 1s infinite alternate-reverse both;
 }
+
+#stage:hover{
+    background: url(../img/sky.png);
+    transition: background ease-out .5s; 
+    
+}
+
+
 // Child
 #stage svg {
     position: absolute;
@@ -36,6 +44,7 @@ Layer_1 {
     font-size: 2em;
     letter-spacing: 1px;
     color: whitesmoke;
+    opacity: 0;
     position: absolute;
     font-family: 'Acme', sans-serif;
     letter-spacing: 2.5px;
