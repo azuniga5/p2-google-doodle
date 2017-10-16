@@ -1,6 +1,6 @@
 // Scripts
 
-$('#google').animate(
+$('#car').animate(
   
   {left: '-500px'});   
 
