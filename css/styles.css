@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Concert+One");
+@import url("https://fonts.googleapis.com/css?family=Acme");
 /*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -479,7 +479,8 @@ Layer_1 {
   letter-spacing: 1px;
   color: whitesmoke;
   position: absolute;
-  font-family: 'Concert One', cursive;
+  font-family: 'Acme', sans-serif;
+  letter-spacing: 2.5px;
   top: 40%;
   left: 40%;
   transform: rotate(0deg); }

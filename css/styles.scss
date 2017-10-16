@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Concert+One');
+@import url('https://fonts.googleapis.com/css?family=Acme');
 // Grand Central Station, Main, Vertex, Canon, etc. 
 @import "normalize";
 @import "google-homepage";
@@ -35,10 +35,10 @@ Layer_1 {
     letter-spacing: 1px;
     color: whitesmoke;
     position: absolute;
-    font-family: 'Concert One', cursive;
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 2.5px;
     top: 40%;
     left: 40%;
-    
     transform: rotate(0deg);
 }
 #car {
