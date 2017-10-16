@@ -1,13 +1,6 @@
 // Scripts
-$(window).load(function(){
-   $("#google").show("slide", {
-      direction: "up"
-   }, 5s);
-});
 
-
-
-$('.car').animate(
+$('#google').animate(
   
-  {left: '-50px'});
-      
+  {left: '-500px'});   
+
