@@ -2,7 +2,7 @@
 $(window).load(function(){
    $("#google").show("slide", {
       direction: "up"
-   }, 2000);
+   }, 5s);
 });
 
 
