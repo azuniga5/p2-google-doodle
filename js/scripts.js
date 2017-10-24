@@ -3,7 +3,7 @@
 $('#stage')
     .animate({opacity: 0}, 1800, function() {
         $(this)
-            .css({'background-image': 'url(/img/clouds.png)'})
+            .css({'background-image': 'url(../img/clouds.png)'})
             .animate({opacity: 1});
     });
 

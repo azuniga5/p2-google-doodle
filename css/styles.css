@@ -500,7 +500,7 @@ Layer_1 {
   padding: auto; }
 
 /* line 64, /Users/azuniga5/Desktop/p2-google-doodle/css/styles.scss */
-.car {
+#car {
   position: absolute;
   width: 50%;
   height: auto;
