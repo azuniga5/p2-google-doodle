@@ -15,13 +15,10 @@ body {
 #stage {
     background: url(../img/google-white.png);
     position: relative;
-
+    margin: auto;
     overflow: hidden;
 }
 
-Layer_1 {
-	animation: Up 5s 1s infinite alternate-reverse both;
-}
 
 #stage:hover{
     background: url(../img/sky.png);
@@ -50,54 +47,25 @@ Layer_1 {
     letter-spacing: 2.5px;
     top: 40%;
     left: 40%;
-    transform: rotate(0deg);
+ 
 }
 
-.google {
-    width: 100%;
-    height: auto;
-    text-align: center;
-    margin: auto;
-    padding: auto;
-}  
+
 
 #car {
-    position: absolute;
-    width: 50%;
-    height: auto;
-    align-content: center;
-    text-align: center;
-    margin: 200px 0px 0px 50px;
-  
+  position: absolute;
+  width: 40%;
+  height: auto;
+  align-content: center;
+  text-align: center;
+  margin: 215px 0px 0px 50px; 
 }
 
 
 
-// Animations Go Here
-// First Frame
-#stage:hover h1 {
-  font-size: 8em;
-  margin: -50px 0 0 -200px;
-  color: white;    
-  transform: rotate(360deg);
-  transition: transform 1.1s;
-
-}
 
 
-#google:hover {
-    
-}
 
-
-#car:hover {
-    background-color: transparent;
-}
-
-
-#Layer_1:hover {
-	animation: Up 5s 1s infinite alternate-reverse both;
-}
 
 
 
