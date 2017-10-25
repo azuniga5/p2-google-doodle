@@ -12,7 +12,7 @@ $('#stage').animate({opacity: 0}, 1800, function() {
 
 $("#car").delay(2850).animate({left: "-50px"}, {duration: 1350, queue: true});
 
-$("h1").animate({opacity: 10}, 25000);
+$("h1").animate({opacity: 10}, 20000);
 
 
 
